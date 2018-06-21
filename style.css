@@ -1,7 +1,77 @@
 body {
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  color: '#777'
-  background: '#777'
-  width: '960px'
-  font-size: '18px'
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+
+}
+/* i couldn't get the text in header to center top to bottom. i tried padding and text align*/
+header {
+    margin: 10px 200px;
+    background: #ebebeb;
+    width: 960px;
+    height: 100px;
+    text-align: center;
+
+
+}
+/*same with nav i couldn't get the text to center top to bottom after trying padding and text align*/
+
+nav {
+    margin: 10px 200px;
+    background: #ebebeb;
+    width: 960px;
+    height: 100px;
+    text-align: center;
+
+}
+
+/* I know i messed up bad here. I think I was supposed to group section and aside so that I could command them to float next to each other*/
+
+#content {
+    
+
+}
+
+/*I still can't get the text to center from the top or get the article positioned correctly. my proportions are all wrong though i got the outside dimension close*/
+
+#section {
+    width: 495px;
+    height: 400px;
+    background: #ebebeb;
+    margin: 10px 200px;
+    text-align: center;
+    float: left;
+    
+}
+
+/* same issue with proportioning and position. had trouble getting the list to show side by side*/
+
+#article { 
+    padding: 10px;
+    color: #ebebeb;
+    background: #777;
+
+}
+
+}
+/* I was able to float it to the right but it's hidden even though I set the colors it blends into the background*/
+
+#aside {
+    width: 100px;
+    height: 400px;
+    float: right;
+    background: #ebebeb;
+    margin: 10px 200px;
+
+}
+/*same issue as header and nav sections.*/
+footer {
+    margin: 10px 200px;
+    background: #ebebeb;
+    width: 960px;
+    height: 100px;
+    text-align: center;
+    clear: both;
 }
